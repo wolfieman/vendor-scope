@@ -3,7 +3,7 @@ name = "vendorscope"
 version = "0.4.0"
 description = "VendorScope: vendor readiness & availability analytics. Turns public vendor and licensing data into an audited, decision-ready view of supplier availability and procurement readiness."
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 license = { file = "LICENSE" }
 authors = [{ name = "Wolfgang Sanyer", email = "wolfgang.sanyer@gmail.com" }]
 dependencies = [
@@ -25,7 +25,7 @@ packages = ["src/vendorscope"]
 
 [tool.ruff]
 line-length = 88
-target-version = "py314"
+target-version = "py312"
 src = ["src"]
 
 [tool.ruff.lint]
